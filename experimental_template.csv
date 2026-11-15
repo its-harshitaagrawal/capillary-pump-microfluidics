@@ -1,0 +1,6 @@
+# Digitised meniscus-position points from Fig. 9 of Kolliopoulos et al. (2021), J. Fluid Mech. 911, A32.
+# One row per point. Columns: liquid, W_um, t_s, z_mm
+# liquid must be one of: NOA74, Silicone oil, Mineral oil, Propylene glycol
+# W_um is one of 17, 25, 50, 75, 100, 200. Read points from the average (solid-symbol) curves with a plot digitiser.
+# Run:  python open_channel_validation.py out --exp experimental_template.csv   (after adding your rows below the header)
+liquid,W_um,t_s,z_mm
